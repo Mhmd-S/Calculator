@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div class= "main-wrapper">
+        <div class="calc-body">
+            <div class="mini-screen"><p class="mini-output" id="miniOut"></p></div>
+            <div id="screen" class="output-screen"><p id="outputScreen" class="output">0</p></div>
+            <div class="keyboard">
+                <div class="c-div">AC</div>
+                <div class="sign-div">+/-</div>
+                <div class="perc-div">%</div>
+                <div data-key="191" id="division-div" class="operator">÷</div>
+                <div data-key="55" id="seven" class="number-div">7</div>
+                <div data-key="56" id="eight" class="number-div">8</div>
+                <div data-key="57" id="nine" class="number-div">9</div>
+                <div data-key="56" id="multi-div"class="operator">x</div>
+                <div data-key="52" id="four" class="number-div">4</div>
+                <div data-key="53" id="five" class="number-div">5</div>
+                <div data-key="54" id="six" class="number-div">6</div>
+                <div data-key="189" id="minus-div" class="operator">-</div>
+                <div data-key="49" id="one" class="number-div">1</div>
+                <div data-key="50" id="two" class="number-div">2</div>
+                <div data-key="51" id="three" class="number-div">3</div>
+                <div data-key="187" id="add-div" class="operator">+</div>
+                <div data-key="48" id="zero" class="number-div">0</div>
+                <div data-key="190" class="deci-div">.</div>
+                <div data-key="187" id="equal-div" class="operator">=</div>
+            </div>
+        </div>
+        <div class="paper-roll" id='paperRoll'></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- Add a paper tape at the end -->
+<!-- Change AC to C and vice-versa -->
